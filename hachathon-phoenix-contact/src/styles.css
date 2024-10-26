@@ -1,7 +1,8 @@
 /* styles.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 body {
     background-color: #e1ebef; /* Füge hier deine gewünschte Hintergrundfarbe hinzu */
     /*background-image: url('https://www.umweltbundesamt.de/sites/default/files/styles/fb-image/public/medien/377/bilder/themen/thema_wasser_daniel.schoenen_photocase.jpg?itok=QFGfXc1R'); /* Füge ein Hintergrundbild hinzu */
     /*background-size: cover; /* Hintergrundbild so skalieren, dass es den gesamten Bereich abdeckt */
   }
-  
