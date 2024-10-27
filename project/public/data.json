@@ -1,0 +1,20 @@
+{
+    "labels": ["January", "February", "March", "April", "May", "June", "July"],
+    "datasets": [
+      {
+        "label": "2020",
+        "data": [0, 59, 80, 81, 56, 55, 40],
+        "fill": false,
+        "borderColor": "#AA2324",
+        "tension": 0.4
+      },
+      {
+        "label": "2021",
+        "data": [28, 48, 40, 19, 86, 27, 90],
+        "fill": false,
+        "borderColor": "#177300",
+        "tension": 0.4
+      }
+    ]
+  }
+  

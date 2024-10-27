@@ -1,6 +1,0 @@
-.chart {
-    margin: 20%;
-    flex: 1; /* Jeder Chart nimmt gleich viel Platz ein */
-    min-width: 600px; /* Optional: Mindestbreite für die Charts */
-    max-width: 100%; /* Stellt sicher, dass die Charts nicht über den Container hinausgehen */
-  }
