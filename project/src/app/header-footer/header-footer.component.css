@@ -4,7 +4,7 @@
   left: 0;                 /* Ensures it spans the entire width */
   width: 100%;             /* Makes the header full width */
   height: 60px;            /* Set a height for the header */
-  background-color: cornflowerblue;  /* Optional: Set a background color */
+  background-color: #4E6B9C;  /* Optional: Set a background color */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
   display: flex;
   align-items: center;     /* Center-aligns items vertically */
@@ -25,7 +25,7 @@
   left: 0;                 /* Ensures it spans the entire width */
   width: 100%;             /* Makes the header full width */
   height: 60px;            /* Set a height for the header */
-  background-color: cornflowerblue;  /* Optional: Set a background color */
+  background-color: #4E6B9C;  /* Optional: Set a background color */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
   display: flex;
   align-items: center;     /* Center-aligns items vertically */

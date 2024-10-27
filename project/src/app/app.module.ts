@@ -15,6 +15,7 @@ import { ChartModule } from 'primeng/chart';
 import { HttpClient } from '@angular/common/http';
 import { HeaderFooterComponent } from './header-footer/header-footer.component';
 import {NgOptimizedImage} from "@angular/common";
+import {MatTab, MatTabGroup} from "@angular/material/tabs";
 
 @NgModule({
   imports: [
@@ -27,7 +28,9 @@ import {NgOptimizedImage} from "@angular/common";
     ImageModule,
     ChartModule,
     HttpClientModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    MatTabGroup,
+    MatTab
   ],
 	declarations: [AppComponent, HeaderFooterComponent],
 	bootstrap: [AppComponent],

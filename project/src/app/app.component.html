@@ -1,6 +1,16 @@
 <app-header-footer></app-header-footer>
 
-<div class="chart-container">
-  <div><p-chart class="diagram" type="line" [data]="basicData0" [options]="basicOptions"></p-chart></div>
-  <div><p-chart class="diagram" type="line" [data]="basicData0" [options]="basicOptions"></p-chart></div>
-</div>
+<mat-tab-group>
+  <mat-tab label="Tank 1">
+    <div class="chart-container">
+      <div><p-chart class="diagram" type="line" [data]="basicData0" [options]="basicOptions"></p-chart></div>
+      <div><p-chart class="diagram" type="line" [data]="basicData0" [options]="basicOptions"></p-chart></div>
+    </div>
+  </mat-tab>
+  <mat-tab label="Tank 2">
+    <div class="chart-container">
+      <div><p-chart class="diagram" type="line" [data]="basicData0" [options]="basicOptions"></p-chart></div>
+      <div><p-chart class="diagram" type="line" [data]="basicData0" [options]="basicOptions"></p-chart></div>
+    </div>
+  </mat-tab>
+</mat-tab-group>

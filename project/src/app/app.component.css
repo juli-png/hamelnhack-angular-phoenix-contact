@@ -1,23 +1,23 @@
 .chart-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around; /* Distributes space around each chart */
   align-items: center;
+  flex-wrap: wrap; /* Allows charts to stack on smaller screens */
   padding: 16px;
-  margin-top: 100px;
+  gap: 16px; /* Adds consistent space between the charts */
 }
 
 .chart-container > div {
-  flex: 1 1 45%; /* Each chart container takes 45% of the width */
-  max-width: 45%; /* Limits the width to 45% of the container */
-  margin-right: 2%; /* Adds spacing between the charts */
-}
-
-.chart-container > div:last-child {
-  margin-right: 0; /* Removes right margin for the last chart */
+  flex: 1 1 45%; /* Allows each chart container to take up 45% of the width */
+  max-width: 45%; /* Limits width to 45% to prevent overflow */
 }
 
 .diagram {
-  width: 100%; /* Ensures each chart uses the full width of its container */
-  height: 300px; /* Sets a fixed height for each chart */
+  width: 100%; /* Ensures each chart fills its container's width */
+  height: 250px; /* Sets a fixed height for each chart */
+  max-height: 250px; /* Ensures each chart doesn’t exceed this height */
+}
+
+mat-tab-group {
+  margin-top: 60px;
 }
