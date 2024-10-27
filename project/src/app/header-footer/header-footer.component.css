@@ -1,0 +1,34 @@
+.Header{
+  position: fixed;         /* Fixes the header at the top */
+  top: 0;                  /* Positions it at the top of the viewport */
+  left: 0;                 /* Ensures it spans the entire width */
+  width: 100%;             /* Makes the header full width */
+  height: 60px;            /* Set a height for the header */
+  background-color: cornflowerblue;  /* Optional: Set a background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+  display: flex;
+  align-items: center;     /* Center-aligns items vertically */
+  padding: 0 16px;         /* Adds horizontal padding */
+  z-index: 1000;
+  color: white;
+}
+
+.Header img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.Footer{
+  position: fixed;         /* Fixes the header at the top */
+  bottom: 0;                  /* Positions it at the top of the viewport */
+  left: 0;                 /* Ensures it spans the entire width */
+  width: 100%;             /* Makes the header full width */
+  height: 60px;            /* Set a height for the header */
+  background-color: cornflowerblue;  /* Optional: Set a background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+  display: flex;
+  align-items: center;     /* Center-aligns items vertically */
+  padding: 0 16px;         /* Adds horizontal padding */
+  z-index: 1000;
+  color: white;
+}
