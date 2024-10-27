@@ -1,16 +1,18 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, Inject, OnInit } from '@angular/core'; 
-import { MessageService } from 'primeng/api'; 
+import { Component, Inject, OnInit } from '@angular/core';
+import { MessageService } from 'primeng/api';
 import { PrimeNGConfig } from 'primeng/api';
 
 
-@Component({ 
-	selector: 'app-root', 
-	templateUrl: './app.component.html', 
-	providers: [MessageService], 
-}) 
-export class AppComponent implements OnInit{ 
-  basicData: any;
+@Component({
+	selector: 'app-root',
+	templateUrl: './app.component.html',
+	providers: [MessageService],
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit{
+  basicData0: any;
+  basicData1: any;
   basicOptions: any;
 
 
@@ -24,7 +26,7 @@ export class AppComponent implements OnInit{
     // JSON-Daten laden
     this.http.get<any>('/data.json').subscribe({
       next: (data) => {
-        this.basicData = data;
+        this.basicData0 = data;
         this.initializeChartOptions();
       },
       error: (error) => {

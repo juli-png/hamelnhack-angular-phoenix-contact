@@ -1,11 +1,9 @@
 <app-header-footer></app-header-footer>
 
-<h1 style="color: blue; text-align:center;">
-  Hackathon 2024
-</h1>
 <h3>Angular PrimeNG Line Chart Component</h3>
 
-<p-chart type="line"
-       [data]="basicData"
-       [options]="basicOptions">
-</p-chart>
+<div class="chart-container">
+  <div><p-chart class="diagram" type="line" [data]="basicData0" [options]="basicOptions"></p-chart></div>
+  <div><p-chart class="diagram" type="line" [data]="basicData1" [options]="basicOptions"></p-chart></div>
+</div>
+
